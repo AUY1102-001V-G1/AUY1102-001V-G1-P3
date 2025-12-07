@@ -1,7 +1,7 @@
+const baseConfig = require('./jest.config.js');
+
 module.exports = {
-  preset: 'ts-jest',
-  testEnvironment: 'node',
-  testMatch: ['**/*.test.ts'],
+  ...baseConfig,
   testPathIgnorePatterns: [
     '/node_modules/',
     'test/value-object/primitives/StringValueObject/isEmpty.test.ts',
