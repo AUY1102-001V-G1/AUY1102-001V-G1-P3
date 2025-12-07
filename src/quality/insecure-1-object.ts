@@ -15,11 +15,11 @@ head
     title= 'Hello world'
 body
     form(action='/' method='post')
-        input#username.form-control(type='text' name='username' value='${input}')
+        input#username.form-control(type='text' name='username' value= username)
         button.btn.btn-primary(type='submit') Submit
-    p Hello ${input}`;
+    p Hello #{username}`;
   const fn = pug.compile(template);
-  const html = fn();
+  const html = fn({ username: input });
   res.send(html);
 });
 
