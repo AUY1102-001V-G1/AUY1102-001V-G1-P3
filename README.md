@@ -103,7 +103,7 @@ Otros workflows:
 
 ### Vista de DockerHub
 
-![DockerHub](img/DockerHub.png)
+![DockerHub](img/DockerHub.jpg)
 
 
 ## 4. Secrets configurados
