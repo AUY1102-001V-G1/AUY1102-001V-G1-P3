@@ -1,4 +1,4 @@
-
+.
 
 Este documento presenta las evidencias del trabajo realizado siguiendo los requisitos de la evaluación, incluyendo clonación del repositorio, implementación de metodologías de prueba (TDD y BDD), análisis de cobertura, y uso de herramientas de seguridad.
 
